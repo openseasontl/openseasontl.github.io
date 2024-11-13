@@ -1,13 +1,10 @@
 ---
 layout: page
-title: Blog Archive
+title: TOC
 ---
 
-{% for tag in site.tags %}
-  <h3>{{ tag[0] }}</h3>
-  <ul>
-    {% for post in tag[1] %}
-      <li><a href="{{ post.url }}">{{ post.date | date: "%B %Y" }} - {{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+## Volume 1
+
+<ul>
+  <li><a href="https://openseasontl.github.io/2024/11/13/prologue.html">Prologue</a></li>
+</ul> 
