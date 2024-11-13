@@ -19,10 +19,6 @@ description: "I want to be the light by your side when you're in the dark, Lidel
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
 theme: "minima"
-remote_theme: jekyll/minima
-
-minima:
-  skin: dark
 
 rss: rss
 
@@ -33,7 +29,6 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-remote-theme
 
 titles_from_headings:
   strip_title: true
